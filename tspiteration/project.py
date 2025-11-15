@@ -2,7 +2,7 @@
 
 import itertools as it
 
-### Traveling salesman problem - brute force solution - part 2 ###
+### Traveling salesman problem - brute force solution - runtime: O(n!) ###
 
 
 def bruteforcetsp(portnames: list, distances: list):
