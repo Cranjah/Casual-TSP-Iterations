@@ -18,7 +18,7 @@ def greedyalgotsp(portnames: list, distances: list):
     while len(route) < len(portnames):
         nextcity = min(
             (i for i in range(len(portnames)) if not visitedcity[i]),
-            key=lambda i: distances[currentcity][i],
+            key=lambda i: distances[currentcity][i]
         )
 
         diststep = distances[currentcity][nextcity]
