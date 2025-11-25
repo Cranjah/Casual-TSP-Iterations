@@ -53,7 +53,7 @@ if __name__ == "__main__":
         [8943, 0, 2619, 6317, 2078],
         [8019, 2619, 0, 5836, 4939],
         [3652, 6317, 5836, 0, 7825],
-        [10545, 2078, 4939, 7825, 0],
+        [10545, 2078, 4939, 7825, 0]
     ]
 
     # Function arguments portnames and distances (table / matrix) are variable exchangeable.
