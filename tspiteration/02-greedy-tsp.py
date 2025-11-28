@@ -10,7 +10,7 @@ def greedyalgotsp(portnames: list, distances: list):
     distance = 0
     route = [0]
 
-    for a in range(1, len(portnames)):
+    for _ in range(1, len(portnames)):
         visitedcity.append(False)
 
     print("The greedy route option calculated:")
@@ -71,3 +71,6 @@ if __name__ == "__main__":
 # 6. Repeat this recursively/iteratively from step 3 until all indexes have been processed.
 # 7. In the last step, calculate the maximum value from the last row or first row / the remaining value / index on it.
 # 8. Output the total distance with the value in km and terminate the algorithm.
+
+
+### ATTENTION: In this particular case, the greedy algorithm is approximately ~ 2,22 % off the exact calculation; ###
