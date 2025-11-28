@@ -68,7 +68,7 @@ if __name__ == "__main__":
 # 3. Select the shortest distance from the row containing the starting position and add it to the total distance.
 # 4. Go to the row with the same column index as the value selected from the previous row.
 # 5. Ignore the positions that are not current positions and those that map back to the values / indices, that have already been mentioned.
-# 6. Repeat this recursively/iteratively from step 3 until all indexes have been processed.
+# 6. Repeat this recursively / iteratively from step 3 until all indexes have been processed.
 # 7. In the last step, calculate the maximum value from the last row or first row / the remaining value / index on it.
 # 8. Output the total distance with the value in km and terminate the algorithm.
 
