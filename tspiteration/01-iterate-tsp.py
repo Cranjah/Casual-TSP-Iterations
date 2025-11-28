@@ -12,7 +12,7 @@ def bruteforcetsp(portnames: list, distances: list):
     counter = 1
     distance = []
 
-    for a in range(1, len(portnames)):
+    for _ in range(1, len(portnames)):
         input.append(int(counter))
         counter += 1
 
