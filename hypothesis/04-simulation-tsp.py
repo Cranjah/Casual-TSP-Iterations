@@ -732,7 +732,7 @@ if __name__ == "__main__":
 # Asymptotic runtime with simple dimensional index: O(t * (n + f) + f log f)
 # Asymptotic runtime with k-d-tree: O(t * (n log n + f log n) + f log f)
 
-# n = Number of nodes in circular element conture
+# n = Number of nodes in circular element contour
 # f = Number of fixed points
 # t = Number of simulation ticks until termination
 
