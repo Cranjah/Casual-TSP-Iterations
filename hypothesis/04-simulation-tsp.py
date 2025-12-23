@@ -5,7 +5,7 @@
 
 ### Requirements: pip install PyQt6 ###
 
-### Created and vibecoded completely with Microsoft Copilot via:  https://copilot.microsoft.com/ ###
+### Created and vibecoded completely with Microsoft Copilot via: https://copilot.microsoft.com/ ###
 
 
 from __future__ import annotations
