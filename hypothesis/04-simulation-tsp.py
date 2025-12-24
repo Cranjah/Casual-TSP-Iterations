@@ -723,7 +723,7 @@ if __name__ == "__main__":
     main()
 
 
-### Created and vibecoded completely with Microsoft Copilot via:  https://copilot.microsoft.com/ ###
+### Created and vibecoded completely with Microsoft Copilot via: https://copilot.microsoft.com/ ###
 
 
 # Prompted for the overall asymptotic runtime, Microsoft Copilot calculated this:
