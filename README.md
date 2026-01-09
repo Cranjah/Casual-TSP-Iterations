@@ -7,4 +7,10 @@ In this repository I will publish my experiments regarding the P-NP-Problem (whi
 
 **/tspiteration/02-greedy-tsp.py** is my second implemented algorithmic approach, also a logically scaleable and this time also runtime scaleable - but not exact - solution to the TSP with mainly a greedy approach - written in Python. The asymptotic runtime would be O(n^2), which is a polynomial solution in terms of efficiency but not an effective solution to the overall P-NP-Problem.
 
+**/tspiteration/03-compare-tsp.py** is my third implemented algorithmic approach, also a logically scaleable and this time also runtime scaleable - but not exact - solution to the TSP with mainly an option comparing greedy approach - written in Python. The asymptotic runtime would be O(n^2), which is a polynomial solution in terms of efficiency but not an effective solution to the overall P-NP-Problem.
+
+**/hypothesis** is a collection of my fourth implemented algorithmic approach, this time in form of a documented mathematical hypothesis at the beginning - observing differences between graphs and maps - ending up in an approach to the problem, which is also known as Euclidean TSP in the world of mathematics. The algorithm was first proven graphically for certain types of graphs, then falsified for certain types of graphs—and - thus ended up as a heuristic solution. Following this algorithmic approach vibecoding was needed in my case to simulate the algorithm visually - the result is seen in **/hypothesis/04-simulation-tsp.py** and is no solution to the overall P-NP-Problem.
+
+**/mathematics** is a mathematical approach and attempted proof to show, that P ≠ NP with observing the number sets and cardinalities of those number sets of the given input of an Euclidean TSP like in the /hypothesis before. The attempted proof tries to state, that the input possibilities can be endlessly complex and with this there can not exist an algorithm with polynomial asymptotic runtime as we can always overcomplicate the input with the continuum of n.
+
 **...maybe more to come...**
